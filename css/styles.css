@@ -1,0 +1,64 @@
+.intro {
+    background-image: url("/images/computer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+}
+.main {
+    background-color: #eeeeee;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #353336;
+}
+.name-section {
+    padding-top: 15%;
+}
+.name {
+    font-size: 2rem;
+}
+.about {
+    background-color: #eeeeee;
+    text-align: center;
+    width: auto;
+    padding: 5% 20% 5% 20%;
+    font-size: 1.2rem;
+    color: #353336;
+}
+.hello {
+    font-size: 2rem;
+}
+.dark {
+    background-color: #353336;
+    color: #fff;
+}
+.light {
+    background-color: #eeeeee;
+    color: #353336;
+}
+.skills-section {
+    background-color: #353336;
+}
+.contact-section {
+    background-color: #eeeeee;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.textarea {
+    margin-top: 1%;
+}
+button {
+    margin-top: 1.5%;
+}
+footer {
+    margin: 0%;
+    background-color: #353336;
+    color: #eeeeee;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+footer, p {
+    margin: 0%;
+}
