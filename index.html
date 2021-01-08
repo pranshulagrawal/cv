@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Himanshu Agarwal</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#experience">EXPERIENCE</a>
+                <a class="nav-link" aria-current="page" href="#certification">CERTIFICATION</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#education">EDUCATION</a>
@@ -35,147 +35,162 @@
         </div>
       </nav>
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="images/himanshu.jfif" alt="himanshu-image">
+        <div class="intro"> 
+            <div class="container main">
+                <div class="row">
+                    <div class="col">
+                        <img class="img-thumbnail" src="images/himanshu.jfif" alt="himanshu-image">
+                    </div>
+                    <div class="col name-section">
+                        <p>
+                            My name is <br>
+                            <span class="name">Himanshu Agarwal</span><br><br>
+                            and I'm <strong>Software Engineer & Web Developer</strong> 
+                        </p>
+                        <a href="#contact">Contact Me</a>
+                    </div>
                 </div>
-                <div class="col">
+            </div>
+        </div>
+        <div class="container-fluid about">
+            <p class="hello">Hello! I'm Himanshu</p>
+            <p>
+                I'm currently pursuing my Bachelor's degree from Chandigarh University in Computer Science and Engineering. I linke to development in the Python language which is highly robust and dynamic in nature. I'm also have the knowledge of web development and my very first project is the one which you see now, my own portfolio which I have made with the help of HTML, CSS, Bootstrap, JavaScript for front-end part and the Django for the backend. 
+            </p>
+        </div>
+        <!-- Certification section -->
+        <div id="certification">
+            <p class="heading-light">CERTIFICATION</p>
+        </div>
+        <div>
+            <table class="table table-bordered">
+                <tr>
+                    <td>October 26, 2020<br>Complete SQL + Database Bootcamp</td>
+                    <td>
+                        I have done this course in October which was provided by the Andrei Neagoie and Mo Binni on the online learning platform Udemy. <br>
+                        This course is all about the SQL langauge in which I learnt the basic and some advance concept of SQL and how to use the Databsse in any software whether it is web application or a computer software.
+                        I have also did one project which included in the course as the exercise in which we have to find the culprit who stole the company secrets and sold to other company.
+                    </td>
+                </tr>
+                <tr>
+                    <td>July 11, 2020 <br> Mastering Data Structures & Algorithms using C and C++</td>
+                    <td>
+                        I have done this course in July which was provided by the Abdul Bari on the online learning platform Udemy. <br>
+                        This course is covers all the data structures and the sorting algorithms which is commonly used by the programmer in their programms.
+                    </td>
+                </tr>
+                <tr>
+                    <td>April 9, 2020 <br> Beginning C++ Programming-From Beginner to Beyond</td>
+                    <td>
+                        I have done this course in April which was provided by Tim Buchalka's Learn Programming Academy & Frank J. Mitropoulos on the online learning platform Udemy. <br>
+                        This course is covers the basic and some advanced concept of the language C++ an contains many quiz exercises for the practice and also the programming exercise.
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Education section -->
+        <div id="education">
+            <p class="heading-light">EDUCATION</p>
+        </div>
+        <div>
+            <table class="table table-bordered">
+                <tr>
+                    <td>2019-2023 <br> Chandigarh University</td>
+                    <td>
+                        Bachelor's Degree <br>
+                        Computer Science and Engineering
+                    </td>
+                </tr>
+                <tr>
+                    <td>2017-2018 <br> A.V.M.D. Institute</td>
+                    <td>
+                        12th <br>
+                        Board: CBSE<br>
+                        Percentage: 75%
+                    </td>
+                </tr>
+                <tr>
+                    <td>2015-2016 <br> S.V.M School</td>
+                    <td>
+                        10th<br>
+                        Board: CBSE <br>
+                        CGPA: 8.8
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Skill section -->
+        <div id="skills">
+            <p>SKILLS</p>
+        </div>
+        <div class="skill-section">
+            <div class="row">
+                <div class="col column col-left">
+                    C++
+                </div>
+                <div class="col column col-right">
+                    Python
+                </div>
+            </div>
+            <div class="row">
+                <div class="col column col-left">
+                    HTML
+                </div>
+                <div class="col column col-right">
+                    CSS
+                </div>
+            </div>
+            <div class="row">
+                <div class="col column col-left">
+                    Bootstrap
+                </div>
+                <div class="col column col-right">
+                    SQL
+                </div>
+            </div>
+        </div>
+        <!-- Contact section -->
+        <div id="contact">
+            <p class="heading-light">CONTACT ME</p>
+        </div>
+        <div class="contact-section">
+            <div class="row">
+                <div class="form-section col-6">
+                    <form action="" method="POST">
+                        <div class="row">
+                            <div class="col-6">
+                            <input type="text" class="form-control" placeholder="Name" aria-label="First name">
+                            </div>
+                            <div class="col-6">
+                            <input type="email" class="form-control" placeholder="Email" aria-label="Last name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <textarea class="form-control textarea" aria-label="With textarea" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="d-grid gap-2 col-12">
+                                <button class="btn btn-primary" type="button">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="inf-section col">
                     <p>
-                        <span>Himanshu Agarwal</span><br>
-                        Software Engineer & Web Developer 
-                    </p>
-                    <p>
-                        <strong>phone:</strong><br>
+                        <strong>Phone:</strong><br>
                         +91-8171798604
                     </p>
                     <p>
                         <strong>Email:</strong><br>
-                        himanshuagarwal213@gmail.com
-                    </p>
-                    <p>
-                        <strong>Address:</strong>
-                        Shiv Nagar, Balkeshwar, Agra <br>
-                        Uttar Pradesh, India - 282004
-                    </p>
-                    <p>
-                        <strong>Date of Birth:</strong>
-                        January 21, 2000
+                        himanshuagarwal213@gmail
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="about">
-            <div class="container">
-                <div class="bg-dark">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.linkedin.com/in/himanshu-agarwal-52b301186/" target="_blank">Linkedin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="" target="_blank">Twitter</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="" target="_blank">Facebook</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="justify-content-md-center">
-                    <p>Hello! I'm Himanshu</p>
-                    <p>
-                        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div id="experience">
-            <h2>EXPERIENCE</h2>
-            <hr>
-            <table>
-                <tr>
-                    <td>April, 2020 - May, 2020 <br>Designation</td>
-                    <td>
-                        COMPANY NAME<br>
-                        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <hr>
-        <div id="education">
-            <h2>EDUCATION</h2>
-            <hr>
-            <table>
-                <tr>
-                    <td>2019-2023 <br> Bachelor's Degree</td>
-                    <td>
-                        Chandigarh University <br>
-                        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
-                    </td>
-                </tr>
-                <tr>
-                    <td>2017-2018 <br> Intermediate School Degree</td>
-                    <td>
-                        A.V.M.D. Institute<br>
-                        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
-                    </td>
-                </tr>
-                <tr>
-                    <td>2015-2016 <br> High School Degree</td>
-                    <td>
-                        S.V.M School<br>
-                        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <hr>
-        <div id="skills">
-            <h2>SKILLS</h2>
-            <hr>
-            <section>
-                <ul>
-                    <li>C++</li>
-                    <li>Pyhton</li>
-                    <li>JavaScript</li>
-                </ul>
-            </section>
-            <section>
-                <ul>
-                    <li>Django Framework</li>
-                    <li>ReactJS</li>
-                    <li>Mongo DB</li>
-                </ul>
-            </section>
-        </div>
-        <div id="contact">
-            <h2>CONTACT ME</h2>
-            <hr>
-            <section>
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Name">
-                    <input type="email" name="" id="" placeholder="Email"><br>
-                    <input type="text" name="" id="" placeholder="Subject"><br>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea><br>
-                    <button>Submit</button>
-                </form>
-            </section>
-            <section>
-                <p>
-                    <span>Himanshu Agarwal</span><br>
-                    Software Engineer & Web Developer
-                </p>
-                <p>
-                    <strong>Phone:</strong><br>
-                    +91-8171798604
-                </p>
-                <p>
-                    <strong>Email:</strong><br>
-                    himanshuagarwal213@gmail
-                </p>
-            </section>
         </div>
     </main>
+    <!-- Footer section -->
     <footer>
         <p>
             ©2021 By Himanshu Agarwal. Proudly created.
