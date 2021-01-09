@@ -58,7 +58,7 @@ table {
     letter-spacing: 0.1rem;
 }
 .skill-section {
-    background-image: url("/images/skill-background.jpg");
+    background-image: url("images/skill-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
